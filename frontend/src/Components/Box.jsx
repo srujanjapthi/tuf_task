@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Box() {
+const Box = () => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleClick = () => {
@@ -16,3 +16,5 @@ export default function Box() {
     </div>
   );
 }
+
+export default Box;

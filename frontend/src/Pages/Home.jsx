@@ -1,9 +1,12 @@
 import React from 'react'
+import Box from '../Components/Box'
+import Button from '../Components/Button'
+import Header from '../Components/Header'
 
-function Home() {
+const Home = () => {
   return (
     <div>
-      Home
+      <Button />
     </div>
   )
 }
