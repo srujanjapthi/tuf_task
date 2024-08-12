@@ -112,8 +112,9 @@ button {
 }
 
 .box {
-  width: 200px;
-  height: 300px;
+  width: 50vw;
+  height: 350px;
+  border-radius: 10px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -138,11 +139,11 @@ button {
 }
 
 .box-front {
-  background-color: red;
+  background-color: rgb(253, 104, 104);
 }
 
 .box-back {
-  background-color: blue;
+  background-color: rgb(128, 128, 255);
   transform: rotateY(180deg);
 }
 
